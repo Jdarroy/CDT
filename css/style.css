@@ -9,3 +9,23 @@
   background-color:#5f666d;
   color:white;
 }
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+.gif{
+  width: 545px;
+  height: 545px;
+
+}
+
+.eclipse-icon{
+  padding: 2px;
+  margin-top: 10px;
+}
+
+#section{
+  margin-left: 20px;
+}
