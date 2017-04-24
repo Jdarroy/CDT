@@ -1,6 +1,17 @@
+body{
+  background-color: #efefef;
+}
+
 .carousel{
-  height: 650px;
-  background: #000;
+    background: #2f4357;
+    margin-top: 20px;
+    height: 650px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 20px;
 }
 
 .carousel-page{
@@ -28,4 +39,89 @@ h1{
 
 #section{
   margin-left: 20px;
+}
+
+.navbar-wrapper{
+  margin-top: 20px;
+
+}
+
+.spacer{
+  padding-top: 15px;
+  background-color: #bcbcbc;
+}
+
+#section-download{
+  background: #dddddd;
+}
+
+#section-download h1{
+  color: #3d0808;
+  text-align: left;
+}
+
+.navbar{
+  border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#btn{
+  background: #d8bb00;
+  font-size: 25px;
+}
+
+#section-info{
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+#section-info a{
+  text-decoration: none;
+}
+
+#ns, #yt, #st{
+  background: #e2e2e2;
+}
+
+#news img{
+  width: 100%;
+  height: 100%;
+}
+
+.links:hover{
+  cursor:pointer;
+  filter: brightness(70%);
+ -webkit-filter: brightness(70%);
+ -moz-filter: brightness(70%);
+ -o-filter: brightness(70%);
+ -ms-filter: brightness(70%);
+ resize: both;
+}
+
+#news p{
+  text-align: justify;
+  padding: 2px 2px 2px 2px;
+}
+
+#youtube img{
+  width: 100%;
+  height: 100%;
+}
+
+#youtube p{
+  text-align: justify;
+  padding: 2px 2px 2px 2px;
+}
+
+#summit img{
+  width: 100%;
+  height: 100%;
+}
+
+#summit p{
+  text-align: justify;
+  padding: 2px 2px 2px 2px;
 }
