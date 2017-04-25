@@ -18,7 +18,7 @@
 <body>
    <div class="navbar-wrapper">
      <div class="container">
-       <nav class="navbar navbar-default navbar-static-top">
+       <nav class="navbar navbar-inverse">
 	   	    <!-- Create the outermost container that will center everything -->
 	   	    <div class="container">
 		   	  <!-- Add the header -->
@@ -30,7 +30,7 @@
 		   				      <span class="icon-bar"></span>
 			   			      <span	class="icon-bar"></span>
 			   		     </button>
-		   			     <a href="#intro"><img class="eclipse-icon" src="images/eclipse3.png" alt=""></a>
+		   			     <a href="#intro"><img class="eclipse-icon" src="images/eclipse4.png" alt=""></a>
 		   	     </div>
 		   	        <!-- Add the links -->
 		   	        <div class="collapse navbar-collapse" id="navbar">
@@ -42,6 +42,14 @@
                               <li><a href="#whos">Resources</a></li>
                               <li><a href="#contact">Contact</a></li>
 		   		            </ul>
+                      <ul class="btn-d">
+                        <a href="https://eclipse.org/cdt/downloads.php" target="_blank" id="down-but">
+                          <button type="button" class="btn btn-xs btn-primary" id="btn-dl"> Download
+                            <span class="glyphicon glyphicon-download-alt"></span>
+                          </button>
+                        </a>
+                      </ul>
+
 		   	        </div>
 	   		<!-- End container -->
 	   	    </div>
@@ -62,7 +70,7 @@
             <div class="item active">
                 <h1>The Leading IDE for C/C++ Development</h1>
                 <br>
-
+                <img src="images/anim.gif" class="gif2" alt="">
             </div>
             <div class="item">
                 <h1>Highly Customizable Industrial Strength C/C++ IDE</h1>
@@ -84,15 +92,43 @@
         </a>
     </div>
 
+    <!--
+
+    <section class="section-with-image" id="section-download">
+      <div class="container">
+        <div class="row">>
+          <div class="col-md-9">
+            <div class="section-imagine-on-right-content">
+              <h1>Try it !</h1>
+              <p>
+                Install Eclipse CDT.
+              </p>
+              <a href="https://eclipse.org/cdt/downloads.php" id="down-but">
+                <button type="button" class="btn btn-xs btn-primary" id="btn-dl"> Download
+                  <span class="glyphicon glyphicon-download-alt"></span>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  -->
+
     <div class="spacer"></div>
     <section class="section-with-image" id="section-info">
       <div class="container">
+
+        <!-- HERE PUT TITLE -->
+        <br><br>
+
         <div class="row">
           <!--  The is the right side of the row where the image goes -->
-          <div class="col-md-4 links" id="ns">
+          <div class="col-xs-4 links" id="ns">
             <a href="https://www.eclipse.org/community/eclipse_newsletter/2017/april/">
             <div class="section-imagine-on-right-image" id="news">
-              <img src="images/news.jpg" alt="">
+              <img src="images/news.png" alt="">
             </div>
             <div class="">
               <h2>Newsletter</h2>
@@ -105,10 +141,10 @@
             <!-- End image column.. -->
           </div>
 
-          <div class="col-md-4 links" id="yt">
+          <div class="col-xs-4 links" id="yt">
             <a href="https://www.youtube.com/playlist?list=PLy7t4z5SYNaSfdaSR0uyDXzmSEtT_0ZbC">
             <div class="section-imagine-on-right-image" id="youtube">
-              <img src="images/youtube.png" alt="">
+              <img src="images/yt.png" alt="">
             </div>
             <div class="">
                 <h2>YouTube Channel</h2>
@@ -122,7 +158,7 @@
           </div>
 
           <!-- This is the left side of the row where the text goes -->
-          <div class="col-md-4 links" id="st">
+          <div class="col-xs-4 links" id="st">
             <a href="https://wiki.eclipse.org/CDT/summits">
             <div class="section-imagine-on-right-content" id="summit">
               <img src="images/meet.jpg" alt="">
@@ -140,52 +176,24 @@
         </div>
         <!-- End container-->
       </div>
+      <br><br>
       <!-- End section define problems -->
     </section>
 
     <div class="spacer"></div>
-    <section class="section-with-image" id="section-download">
-      <div class="container">
-        <div class="row">
-          <!-- This is the left side of the row where the text goes -->
-          <div class="col-md-9">
-            <div class="section-imagine-on-right-content">
-              <h1>!!Title!!</h1>
-
-              <a href="https://eclipse.org/cdt/downloads.php" id="down-but">
-                <button type="button" class="btn btn-xs btn-primary"> Download
-                  <span class="glyphicon glyphicon-download-alt"></span>
-                </button>
-              </a>
-
-              <!-- End section-define-problems-content -->
-            </div>
-            <!-- End content column -->
-          </div>
-          <!-- End right col -->
-
-          <!--  The is the right side of the row where the image goes -->
-          <div class="col-xs-3">
-            <div class="section-imagine-on-right-image">
-
-
-
-
-              <!-- End section-define -->
-            </div>
-            <!-- End image column.. -->
-          </div>
-          <!-- End row -->
-        </div>
-        <!-- End container-->
-      </div>
-      <!-- End section define problems -->
-    </section>
+    <footer class="footer">
+			<a target="_blank" href="http://www.eclipse.org" class="lnk-footer">Eclipse Home</a>
+			<a target="_blank" href="http://www.eclipse.org/legal/privacy.php" class="lnk-footer">Privacy Policy</a>
+			<a target="_blank" href="http://www.eclipse.org/legal/termsofuse.php" class="lnk-footer">Terms of Use</a>
+			<a target="_blank" href="http://www.eclipse.org/legal/copyright.php" class="lnk-footer">Copyright Agent</a>
+			<a target="_blank" href="http://www.eclipse.org/legal" class="lnk-footer">Legal</a>
+			<!-- End the footer -->
+		</footer>
 
 <script src="js/bootstrap.min.js"></script>
 <script>
  $('.carousel').carousel({
-  interval: 30000
+  interval: 10000
  });
 </script>
 </body>

@@ -1,5 +1,5 @@
 body{
-  background-color: #efefef;
+  background-color: #253238;
 }
 
 .carousel{
@@ -32,6 +32,12 @@ h1{
 
 }
 
+.gif2{
+  width: 650px;
+  height: auto;
+
+}
+
 .eclipse-icon{
   padding: 2px;
   margin-top: 10px;
@@ -46,36 +52,65 @@ h1{
 
 }
 
-.spacer{
-  padding-top: 15px;
-  background-color: #bcbcbc;
-}
-
-#section-download{
-  background: #dddddd;
-}
-
-#section-download h1{
-  color: #3d0808;
-  text-align: left;
-}
-
 .navbar{
   border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+  background: #253238;
+  border-color: #253238;
 }
 
-#btn{
-  background: #d8bb00;
+.navbar img{
+  width: 150px;
+  height: auto;
+}
+
+.spacer{
+  padding-top: 15px;
+  background-color: #bcbcbc;
+}
+
+#whats h1{
+  background: #efefef;
+  color: #337ab7;
+  text-align: left;
+}
+
+#section-download{
+  background: #4f4040;
+  padding: 25px 25px 25px 25px;
+}
+
+#section-download h1{
+  color: #fff;
+  text-align: left;
+}
+
+#section-download p{
+  color: #fff;
+  text-align: left;
+  font-size: 125%
+}
+
+#btn-dl{
+  padding: 7px 15px 7px 15px;
+  margin: 5px 5px 5px 5px;
+  background: #f2a815;
+  color: #fff;
   font-size: 25px;
+  border-color: #4f4040;
+  border-width: thin;
+}
+
+#btn-dl:hover{
+  background: #e57e00;
+  border-color: #e57e00;
 }
 
 #section-info{
+  background: #efefef;
   text-align: center;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
 }
 
 #section-info a{
@@ -124,4 +159,21 @@ h1{
 #summit p{
   text-align: justify;
   padding: 2px 2px 2px 2px;
+}
+
+ul.btn-d{
+  float: right;
+}
+
+footer{
+  margin: 15px 15px 15px 15px;
+}
+footer a{
+  margin-left: 1%;
+  color: grey;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: white;
 }
