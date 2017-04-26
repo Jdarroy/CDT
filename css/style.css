@@ -43,6 +43,11 @@ h1{
   margin-top: 10px;
 }
 
+#cdt-w{
+  width: 15%;
+  height: auto;
+}
+
 #section{
   margin-left: 20px;
 }
